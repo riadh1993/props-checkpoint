@@ -7,7 +7,7 @@ import PropTypes from "prop-types";
 const Profile = () => {
   return (
     <div style={{fontSize: "30px",fontWeight: "bold",margin: "30px",color: "purple"}}>
-    <FullName ></FullName>
+    <FullName FullName="riadh"}></FullName>
     <Biography></Biography>
     <Profession></Profession>
     <Alert></Alert>
