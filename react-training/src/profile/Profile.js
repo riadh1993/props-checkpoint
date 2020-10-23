@@ -7,10 +7,10 @@ import PropTypes from "prop-types";
 const Profile = () => {
   return (
     <div style={{fontSize: "30px",fontWeight: "bold",margin: "30px",color: "purple"}}>
-    <FullName></FullName>
-    <Biography></Biography>
-    <Profession></Profession>
-    <Alert></Alert>
+    <FullName {FullName: "John Wick"}></FullName>
+    <Biography {Biography:"Born in 1973 and still killing people for money"}></Biography>
+    <Profession {Profession:"An assasin"}></Profession>
+    <Alert {Alert: "Fullname is John Wick"}></Alert>
 
     </div>
   )
